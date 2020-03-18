@@ -1,12 +1,12 @@
-NAME = mult.c
+NAME = jeumult
 
-SRC	= jeumult
+SRC	= mult.c
 
 OBJ	= $(SRC:.c=.o)
 
-CC	= /usr/bin/gcc
+CC	= gcc
 
-CFLAGS	= -Wall -Wextra -Werror -std=gnu99
+CFLAGS	= -Wall -Wextra -Werror -pedantic
 CDEBUG	= -O2 -g -ggdb
 
 RM	= rm -f
